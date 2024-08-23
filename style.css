@@ -1,0 +1,319 @@
+@media only screen and (max-width: 600px) {
+    #device {
+        position: absolute;
+    }
+    
+    #base {
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        height: 600px;
+        width: 350px;
+        background-color: red;
+        border-radius: 1px;
+    }
+    #display {
+        position: absolute;
+        top: 30px;
+        left: 10px;
+        height: 500px;
+        width: 330px;
+        background-color: rgb(31, 31, 31);
+        border-radius: 1px;
+    }
+    #hom {
+        position: absolute;
+        top: 540px;
+        left: 150px;
+        height: 50px;
+        width: 50px;
+        background-color: #272727;
+        border: #0f0f0f inset 3px;
+        border-radius: 50px;
+    }
+    #camera {
+        position: absolute;
+        left: 150px;
+        top: 10px;
+        height: 20px;
+        width: 20px;
+        background-image: radial-gradient(#c400ff, black 5px);
+        border-radius: 500px;
+    }
+    #side-vol {
+        position: absolute;
+        left: 298px;
+        top: 90px;
+        background-color: #494949;
+        height: 100px;
+        width: 78px;
+        border-radius: 5px;
+    }
+    #side-of {
+        position: absolute;
+        left: 298px;
+        top: 200px;
+        background-color: #494949;
+        height: 50px;
+        width: 78px;
+        border-radius: 5px;
+    }
+    #top-of {
+        position: absolute;
+        visibility: hidden;
+        left: 298px;
+        top: 15px;
+        background-color: #494949;
+        height: 78px;
+        width: 50px;
+        border-radius: 5px;
+    }
+    #remot {
+        max-width: 350px;
+        width: 770px;
+        height: 1600px;
+        position: absolute;
+        top: 700px;
+        left: 20px;
+        color: rgb(0, 0, 0);
+        font-family: 'Helvetica';
+        background-color: rgb(255, 255, 255);
+        border: black 5px solid;
+        border-radius: 10px;
+    }
+    #basp {
+        text-align: center;
+        width: 170px;
+        height: 470px;
+        position: absolute;
+        top: 0;
+        left: 0px;
+        border-right: black solid 5px;
+        border-bottom: black solid 5px;
+    }
+    #displ {
+        text-align: center;
+        width: 175px;
+        height: 470px;
+        position: absolute;
+        left: 175px;
+        border-bottom: black solid 5px;
+    }
+    #hombut {
+        text-align: center;
+        width: 170px;
+        height: 520px;
+        position: absolute;
+        top: 470px;
+        left: 0px;
+        border-right: black solid 5px;
+        border-bottom: black solid 5px;
+    }
+    #camr {
+        text-align: center;
+        width: 175px;
+        height: 520px;
+        position: absolute;
+        top: 470px;
+        left: 175px;
+        border-bottom: black solid 5px;
+    }
+    #displ {
+        height: 470px;
+    }
+    #bts {
+        text-align: center;
+        height: 450px;
+        width: 350px;
+        position: absolute;
+        top: 990px;
+        left: 0px;
+    }
+    #gener {
+        
+        position: absolute;
+        top: 2350px;
+        left: 125px;
+        cursor: pointer;
+        font-family: 'Helvetica';
+        font-size: xx-large;
+        background-color: red;
+        color: white;
+        border: #aa0000, solid, 5px;
+        border-radius: 20px;
+        transition: 0.5s;
+    }
+    #gener:hover {
+        border-radius: 5px;
+        background-color: #aa0000;
+    }
+    input[type="range"]{
+        accent-color: #ff0000;
+        width: 165px;
+    }
+    input[type="checkbox"]{
+        accent-color: #ff0000;
+        width: 30px;
+        height: 30px;
+    }
+    input[type="radio"]{
+        accent-color: #ff0000;
+        width: 20px;
+        height: 20px;
+    }
+    input[type="range"]::-webkit-slider-thumb {
+        background-color: #007bff; 
+        border: 2px solid #007bff; 
+        border-radius: 50%; 
+        height: 30px; 
+        width: 30px; 
+      }
+      
+      /* Pre Firefox prehliadače */
+      input[type="range"]::-moz-range-thumb {
+        background-color: #007bff; 
+        border: 2px solid #007bff; 
+        border-radius: 50%; 
+        height: 30px; 
+        width: 30px; 
+      }
+}
+@media only screen and (min-width: 601px) {
+    #device {
+        position: absolute;
+    }
+    
+    #base {
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        height: 600px;
+        width: 350px;
+        background-color: red;
+        border-radius: 1px;
+    }
+    #display {
+        position: absolute;
+        top: 30px;
+        left: 10px;
+        height: 500px;
+        width: 330px;
+        background-color: rgb(31, 31, 31);
+        border-radius: 1px;
+    }
+    #hom {
+        position: absolute;
+        top: 540px;
+        left: 150px;
+        height: 50px;
+        width: 50px;
+        background-color: #272727;
+        border: #0f0f0f inset 3px;
+        border-radius: 50px;
+    }
+    #camera {
+        position: absolute;
+        left: 150px;
+        top: 10px;
+        height: 20px;
+        width: 20px;
+        background-image: radial-gradient(#c400ff, black 5px);
+        border-radius: 500px;
+    }
+    #side-vol {
+        position: absolute;
+        left: 298px;
+        top: 90px;
+        background-color: #494949;
+        height: 100px;
+        width: 78px;
+        border-radius: 5px;
+    }
+    #side-of {
+        position: absolute;
+        left: 298px;
+        top: 200px;
+        background-color: #494949;
+        height: 50px;
+        width: 78px;
+        border-radius: 5px;
+    }
+    #top-of {
+        position: absolute;
+        visibility: hidden;
+        left: 298px;
+        top: 15px;
+        background-color: #494949;
+        height: 78px;
+        width: 50px;
+        border-radius: 5px;
+    }
+    #remot {
+        width: 770px;
+        height: 480px;
+        position: absolute;
+        top: 20px;
+        left: 400px;
+        color: rgb(0, 0, 0);
+        font-family: 'Helvetica';
+        background-color: rgb(255, 255, 255);
+        border: black 5px solid;
+        border-radius: 10px;
+    }
+    #basp {
+        height: 470px;
+        position: absolute;
+        top: 0;
+        left: 0px;
+        border-right: black solid 5px;
+    }
+    #displ {
+        height: 470px;
+        position: absolute;
+        top: 0;
+        left: 150px;
+        border-right: black solid 5px;
+    }
+    #hombut {
+        height: 470px;
+        position: absolute;
+        top: 0;
+        left: 300px;
+        border-right: black solid 5px;
+    }
+    #camr {
+        height: 470px;
+        position: absolute;
+        top: 0;
+        left: 470px;
+        border-right: black solid 5px;
+    }
+    #displ {
+        height: 470px;
+    }
+    #bts {
+        height: 450px;
+        position: absolute;
+        top: 0;
+        left: 620px;
+    }
+    #gener {
+        
+        position: absolute;
+        top: 520px;
+        left: 400px;
+        cursor: pointer;
+        font-family: 'Helvetica';
+        font-size: x-large;
+        background-color: red;
+        color: white;
+        border: #aa0000, solid, 5px;
+        border-radius: 20px;
+        transition: 0.5s;
+    }
+    #gener:hover {
+        border-radius: 5px;
+        background-color: #aa0000;
+    }
+    
+}

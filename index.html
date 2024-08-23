@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Iconm.png" type="image/png">
+    <title>Phone creator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <a id="gener">Generate</a>
+    <div id="device">
+        <div id="side-vol"></div>
+        <div id="side-of"></div>
+        <div id="top-of"></div>
+        <div id="base">
+            <div id="display">
+                <div id="camera"></div>
+            </div>
+            <div id="hom"></div>
+        </div>
+    </div>
+    
+        <div id="remot">
+            <div id="basp">
+                <h2>Base:</h2>
+                <p>Rounding:</p>
+                <input type="range" id="rovba" max="80" min="0" value="1">
+                <p>Color:</p>
+                <input type="color" id="colba" value="#ff0000">
+            </div>
+            <div id="displ">
+                <h2>Display:</h2>
+                <p>Rounding:</p>
+                <input type="range" id="roudis" max="160" min="0" value="1">
+                <p>Height:</p>
+                <input type="range" id="heigdis" max="600" min="100" value="500">
+                <p>Position:</p>
+                <input type="range" id="posdis" max="500" min="0" value="30">
+            </div>
+            <div id="hombut">
+                <h2>Home Button:</h2>
+                <p>Rounding:</p>
+                <input type="range" id="rouhb" max="50" min="0" value="50">
+                <p>Color:</p>
+                <input type="color" id="colhb" value="#272727">
+                <p>Color 2:</p>
+                <input type="color" id="col2hb" value="#0f0f0f">
+                <p>Position:</p>
+                <input type="range" id="poshb" max="540" min="5" value="540">
+                <p>Invisible:</p>
+                <input type="checkbox" id="chckhb">
+            </div>
+            <div id="camr">
+                <h2>Camera:</h2>
+                <p>Position:</p>
+                <input type="range" id="poscam" max="480" min="0" value="10">
+                <p>Position 2:</p>
+                <input type="range" id="poscam2" max="305" min="5" value="150">
+            </div>
+            <div id="bts">
+                <h2>Buttons:</h2>
+                <p>Positon Volume:</p>
+                <input type="range" id="posvol" max="515" min="25" value="90">
+                <p>Position Off Up:</p>
+                <input type="range" id="posofup" max="315" min="25" value="298">
+                <p>Position Off Side:</p>
+                <input type="range" id="posofsid" max="515" min="25" value="200">
+                <p>Volume Left or Right:</p>
+                <input type="checkbox" id="side">
+                <p>Off:</p>
+                <input type="radio" id="tp" name="offbut" value="top">  On Top</input>
+                <br>
+                <input type="radio" id="lf" name="offbut" value="left">  On Left Side</input>
+                <br>
+                <input type="radio" id="rg" name="offbut" value="right" checked="checked">  On Right Side</input>
+            </div>
+        </div>
+        <script src="script.js"></script>
+</body>
+</html>
