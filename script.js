@@ -73,7 +73,7 @@ function generate() {
         ipodd.style.visibility = "hidden";
         keypadd.style.visibility = "visible";
     }
-    else {
+    else if (nothing.checked = true) {
         ipodd.style.visibility = "hidden";
         keypadd.style.visibility = "hidden";
     }
