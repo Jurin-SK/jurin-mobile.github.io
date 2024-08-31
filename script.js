@@ -28,6 +28,9 @@ const rightr = document.getElementById("rg");
 const ipod = document.getElementById("ipdwhl");
 const keypad = document.getElementById("bttnk");
 const nothing = document.getElementById("nothb");
+const ipodd = document.getElementById("ipod-whel");
+const keypadd = document.getElementById("keypad");
+const nothingd = document.getElementById("");
 gene.addEventListener('click', generate);
 function generate() {
     bas.style.borderRadius = roundtbase.value + "px";
@@ -63,16 +66,16 @@ function generate() {
         sideoff.style.left = "298px";
     }
     if (ipod.checked == true) {
-        ipod.style.visibility = "visible";
-        keypad.style.visibility = "hidden";
+        ipodd.style.visibility = "visible";
+        keypadd.style.visibility = "hidden";
     }
     if (keypad.checked = true) {
-        ipod.style.visibility = "hidden";
-        keypad.style.visibility = "visible";
+        ipodd.style.visibility = "hidden";
+        keypadd.style.visibility = "visible";
     }
     if (nothing.checked = true) {
-        ipod.style.visibility = "hidden";
-        keypad.style.visibility = "hidden";
+        ipodd.style.visibility = "hidden";
+        keypadd.style.visibility = "hidden";
     }
     var inputs = document.getElementsByTagName('input');
 
