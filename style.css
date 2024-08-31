@@ -70,7 +70,7 @@
     }
     #ipod-whel {
         position: absolute;
-        visibility: visible; /*hidden*/
+        visibility: hidden;
         top: 260px;
         left: 45px;
         width: 160px;
@@ -78,6 +78,12 @@
         border: #363636 50px solid;
         border-radius: 200px;
         background-color: gray;
+    }
+    #keypad {
+        left: 17px;
+        top: 250px;
+        position: absolute;
+        visibility: visible; /*hidden*/
     }
     #remot {
         max-width: 350px;
@@ -261,7 +267,7 @@
     }
     #ipod-whel {
         position: absolute;
-        visibility: visible; /*hidden*/
+        visibility: hidden;
         top: 260px;
         left: 45px;
         width: 160px;
@@ -269,6 +275,12 @@
         border: #363636 50px solid;
         border-radius: 200px;
         background-color: gray;
+    }
+    #keypad {
+        left: 17px;
+        top: 250px;
+        position: absolute;
+        visibility: visible; /*hidden*/
     }
     #remot {
         width: 770px;
