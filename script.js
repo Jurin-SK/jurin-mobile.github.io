@@ -25,6 +25,9 @@ const lorvol = document.getElementById("side");
 const topr = document.getElementById("tp");
 const leftr = document.getElementById("lf");
 const rightr = document.getElementById("rg");
+const ipod = document.getElementById("ipdwhl");
+const keypad = document.getElementById("bttnk");
+const nothing = document.getElementById("nothb");
 gene.addEventListener('click', generate);
 function generate() {
     bas.style.borderRadius = roundtbase.value + "px";
@@ -58,6 +61,18 @@ function generate() {
         sideoff.style.visibility = "visible";
         upoff.style.visibility = "hidden";
         sideoff.style.left = "298px";
+    }
+    if (ipod.checked == true) {
+        ipod.style.visibility = "visible";
+        keypad.style.visibility = "hidden";
+    }
+    if (keypad.checked = true) {
+        ipod.style.visibility = "hidden";
+        keypad.style.visibility = "visible";
+    }
+    if (nothing.checked = true) {
+        ipod.style.visibility = "hidden";
+        keypad.style.visibility = "hidden";
     }
     var inputs = document.getElementsByTagName('input');
 
