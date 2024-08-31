@@ -83,7 +83,7 @@
         left: 17px;
         top: 250px;
         position: absolute;
-        visibility: visible; /*hidden*/
+        visibility: hidden;
     }
     #remot {
         max-width: 350px;
@@ -280,7 +280,7 @@
         left: 17px;
         top: 250px;
         position: absolute;
-        visibility: visible; /*hidden*/
+        visibility: hidden;
     }
     #remot {
         width: 770px;
