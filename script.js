@@ -69,11 +69,11 @@ function generate() {
         ipodd.style.visibility = "visible";
         keypadd.style.visibility = "hidden";
     }
-    if (keypad.checked = true) {
+    else if (keypad.checked = true) {
         ipodd.style.visibility = "hidden";
         keypadd.style.visibility = "visible";
     }
-    if (nothing.checked = true) {
+    else {
         ipodd.style.visibility = "hidden";
         keypadd.style.visibility = "hidden";
     }
