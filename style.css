@@ -68,6 +68,17 @@
         width: 50px;
         border-radius: 5px;
     }
+    #ipod-whel {
+        position: absolute;
+        visibility: visible; /*hidden*/
+        top: 260px;
+        left: 45px;
+        width: 160px;
+        height: 160px;
+        border: #363636 50px solid;
+        border-radius: 200px;
+        background-color: gray;
+    }
     #remot {
         max-width: 350px;
         width: 770px;
@@ -247,6 +258,17 @@
         height: 78px;
         width: 50px;
         border-radius: 5px;
+    }
+    #ipod-whel {
+        position: absolute;
+        visibility: visible; /*hidden*/
+        top: 260px;
+        left: 45px;
+        width: 160px;
+        height: 160px;
+        border: #363636 50px solid;
+        border-radius: 200px;
+        background-color: gray;
     }
     #remot {
         width: 770px;
