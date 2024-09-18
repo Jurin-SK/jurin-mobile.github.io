@@ -6,7 +6,7 @@ On this website: https://jurin-sk.github.io/jurin-mobile.github.io/
 ## ⚠️ Warning
 If you find error report it to me
 ## 🔄️ Update Soon
+* Nothing
+## 📰 Changelog
 * Ipod wheel
 * Nokia keyboard
-## 📰 Changelog
-* Nothing here 😊
