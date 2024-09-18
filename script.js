@@ -64,6 +64,9 @@ function generate() {
         upoff.style.visibility = "hidden";
         sideoff.style.left = "298px";
     }
+    radios();
+    function radios() 
+    {
 
         if (ipod.checked == true) {
             ipodd.style.visibility = "visible";
@@ -73,8 +76,8 @@ function generate() {
             ipodd.style.visibility = "hidden";
             keypadd.style.visibility = "visible";
         }
-
-    else if (nothing.checked) {
+    }
+    if (nothing.checked) {
         ipodd.style.visibility = "hidden";
         keypadd.style.visibility = "hidden";
     }
