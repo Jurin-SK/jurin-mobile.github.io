@@ -29,6 +29,7 @@ const ipod = document.getElementById("ipdwhl");
 const keypad = document.getElementById("bttnk");
 const ipodd = document.getElementById("ipod-whel");
 const keypadd = document.getElementById("keypad");
+const nothing = document.getElementById("nothingb");
 gene.addEventListener('click', generate);
 function generate() {
     bas.style.borderRadius = roundtbase.value + "px";
@@ -71,7 +72,7 @@ function generate() {
             ipodd.style.visibility = "visible";
             keypadd.style.visibility = "hidden";
         }
-        else if (keypad.checked = true) {
+        else if (keypad.checked == true) {
             ipodd.style.visibility = "hidden";
             keypadd.style.visibility = "visible";
         }
