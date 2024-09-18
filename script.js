@@ -30,7 +30,6 @@ const keypad = document.getElementById("bttnk");
 const nothing = document.getElementById("nothb");
 const ipodd = document.getElementById("ipod-whel");
 const keypadd = document.getElementById("keypad");
-const nothingd = document.getElementById("");
 gene.addEventListener('click', generate);
 function generate() {
     bas.style.borderRadius = roundtbase.value + "px";
@@ -65,15 +64,17 @@ function generate() {
         upoff.style.visibility = "hidden";
         sideoff.style.left = "298px";
     }
-    if (ipod.checked == true) {
-        ipodd.style.visibility = "visible";
-        keypadd.style.visibility = "hidden";
-    }
-    else if (keypad.checked = true) {
-        ipodd.style.visibility = "hidden";
-        keypadd.style.visibility = "visible";
-    }
-    else if (nothing.checked = true) {
+
+        if (ipod.checked == true) {
+            ipodd.style.visibility = "visible";
+            keypadd.style.visibility = "hidden";
+        }
+        else if (keypad.checked = true) {
+            ipodd.style.visibility = "hidden";
+            keypadd.style.visibility = "visible";
+        }
+
+    else if (nothing.checked) {
         ipodd.style.visibility = "hidden";
         keypadd.style.visibility = "hidden";
     }
